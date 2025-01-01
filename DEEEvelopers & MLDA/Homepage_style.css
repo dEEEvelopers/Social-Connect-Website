@@ -1,0 +1,71 @@
+ body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            color: #7b3f4d;
+            background: linear-gradient(to bottom, rgba(255, 255, 255, 0.9), rgba(255, 192, 203, 0.8));
+            background-size: cover;
+            background-position: center;
+        }
+
+        .container {
+    	    display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            padding: 5%;
+       }
+
+        h1 {
+            font-size: 3em;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-bottom: 40px;
+        }
+
+        .clubs {
+            font-size: 1em;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            color: #7b3f4d;
+            font-weight: 600;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 1.1em;
+            font-weight: bold;
+            color: white;
+            background-color: #c85a78;
+            border: none;
+            border-radius: 30px;
+            text-decoration: none;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #a94760;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .social-icons {
+            margin-top: 50px;
+        }
+
+        .social-icons a {
+            margin: 0 10px;
+            font-size: 1.5em;
+            color: #7b3f4d;
+            text-decoration: none;
+        }
+
+        .social-icons a:hover {
+            color: #c85a78;
+        }
